@@ -1,24 +1,24 @@
-{
-  "name": "starter-kit-astro",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "^4.3.13",
-    "@iconify-json/skill-icons": "latest",
-    "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.18",
-    "astro": "^5.16.11",
-    "astro-icon": "^1.1.5",
-    "tailwindcss": "^4.1.18"
-  },
-  "devDependencies": {
-    "daisyui": "latest"
-  }
+{  
+	"name": "starter-kit-astro",
+	"type": "module",
+	"version": "1.0.2",
+
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	
+	"dependencies": {
+		"@astrojs/mdx": "^5.0.3",
+		"astro": "^6.1.6",
+		"astro-icon": "^1.1.5",
+		"tailwindcss": "^4.2.2",
+		"@tailwindcss/vite": "^4.2.2",
+		"@tailwindcss/typography": "^0.5.19",
+		"daisyui": "latest",
+		"@iconify-json/skill-icons": "latest"
+	}
 }
